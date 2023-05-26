@@ -1,0 +1,34 @@
+@use 'global';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-family: 'Hepta Slab', serif;
+  font-size: 50%;
+}
+
+body {
+  background: #121214;
+  color: #fff;
+
+  padding: 14rem 13.4rem 14rem 11rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.grid {
+  display: grid;
+  gap: 3.2rem;
+}
